@@ -63,22 +63,30 @@ img {
 .item-plaatje {
   float:left;
   width:250px;
-  padding-right: 10px;
+  border: 2px solid #ffffff;
   /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-plaatje2 {
   float: left;
   width: 250px;
-  padding-right: 10px;
-
+  border: 2px solid #a0a0a0;
 }
 
 .item-tekst {
-  float:right;
-  width: 500px;
+  float: right;
+  width: 420px;
   text-align: left;
-  float: top;
+  
+}
+
+p img {
+  display: inline-block;
+}
+
+p img.sony3 {
+  width: 250px;
+  height: 250px;
 }
 
 .item {
@@ -87,6 +95,7 @@ img {
 
 .sony3 {
   margin-top: 100px;
+  
 }/* Indeling voor sub pagina */
 
 /* Opmaak voor alle pagina's */
@@ -119,7 +128,7 @@ nav ul  {
     background-color: #c7c7c7;
     overflow: hidden;
     width: fit-content;
-    border: 1px solid #212121
+    border: 2px solid #0f0f0f
 }
 
 nav ul li {
