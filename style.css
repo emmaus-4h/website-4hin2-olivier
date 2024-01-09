@@ -14,7 +14,7 @@
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
 * {                                        /* geldt voor alles */
-  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
+  box-sizing: border-box;            /* zorg dat border meetelt bij de width en height van boxen */
   margin: 0px;                             /* standaard marge 0 */
 }
 
@@ -52,51 +52,33 @@ p {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-img {
-  margin: 10px 0px;
-}
 
 /* Indeling voor hoofd pagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
-  float:left;
-  width:250px;
+#item-plaatje {
+  width:300px;
   border: 2px solid #ffffff;
+  align-items: right;
   /* zorgt dat plaatje niet tegen tekst komt */
 }
 
-.item-plaatje2 {
-  float: left;
-  width: 250px;
+#item-plaatje2 {
+  width: 200px;
   border: 2px solid #a0a0a0;
+  align-items: left;
 }
 
 .item-tekst {
-  float: right;
-  width: 420px;
-  text-align: left;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  word-spacing: 0.5px;
   
 }
 
-p img {
-  display: inline-block;
-}
-
-p img.sony3 {
-  width: 250px;
-  height: 250px;
-}
-
-.item {
-  
-}
-
-.sony3 {
-  margin-top: 100px;
-  
-}/* Indeling voor sub pagina */
+/* Indeling voor sub pagina */
 
 /* Opmaak voor alle pagina's */
 
