@@ -58,7 +58,7 @@ p {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 #item-plaatje {
-  width:300px;
+  width: 360px;
   border: 2px solid #ffffff;
   align-items: right;
   /* zorgt dat plaatje niet tegen tekst komt */
