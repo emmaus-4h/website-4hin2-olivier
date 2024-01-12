@@ -58,7 +58,7 @@ p {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 #item-plaatje {
-  width: 320px;
+  width: 360px;
   border: 2px solid #ffffff;
   align-items: center;
   margin-bottom: 20px;
@@ -67,12 +67,21 @@ p {
 }
 
 #item-plaatje2 {
-  width: 350px;
+  width: 360px;
   border: 2px solid #ffffff;
-  align-items: left;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#item-plaatje3 {
+  width: 400px;
+  border: 3px solid #000000;
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 .item-tekst {
   width: 550px;
@@ -89,10 +98,29 @@ p {
   margin: auto;
   word-spacing: 0.5px;
   color: #ffffff;
-  margin-top: 175px;
+  margin-top: 10px;
 
 }
 
+.item-tekst3 {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+  word-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: 10px;
+
+}
+
+.tem-tekst4 {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+  word-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: 10px;
+
+}
 /* Indeling voor sub pagina */
 
 /* Opmaak voor alle pagina's */
