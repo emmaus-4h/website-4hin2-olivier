@@ -61,8 +61,8 @@ p {
   width: 320px;
   border: 2px solid #ffffff;
   align-items: center;
-  margin-bottom: 140px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   /* zorgt dat plaatje niet tegen tekst komt */
 }
 
@@ -70,15 +70,27 @@ p {
   width: 350px;
   border: 2px solid #ffffff;
   align-items: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .item-tekst {
-  width: 500px;
+  width: 550px;
   text-align: center;
   margin: auto;
   word-spacing: 0.5px;
   color: #ffffff;
   
+}
+
+.item-tekst2 {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+  word-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: 175px;
+
 }
 
 /* Indeling voor sub pagina */
