@@ -60,24 +60,23 @@ p {
 #item-plaatje {
   width: 360px;
   border: 2px solid #ffffff;
-  align-items: center;
   margin-bottom: 20px;
   margin-top: 20px;
   /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 #item-plaatje2 {
-  width: 360px;
-  border: 2px solid #ffffff;
-  align-items: center;
+  width: 400px;
+  border: 3px solid #000000;
+  margin-left: 150px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 #item-plaatje3 {
-  width: 400px;
-  border: 3px solid #000000;
-  margin-left: 150px;
+  width: 360px;
+  border: 3px solid #ffffff;
+  margin-left: 170px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -112,7 +111,7 @@ p {
 
 }
 
-.tem-tekst4 {
+.item-tekst4 {
   width: 550px;
   text-align: center;
   margin: auto;
@@ -135,12 +134,12 @@ h1, h2, h3 {
 }
 
 a {
-    color: #969696;
+    color: #4da9fe;
     text-decoration: none;
 }
 
 a:hover {
-    color: black;
+    color: #7ce4fe;
     text-decoration: underline;
 }
 
