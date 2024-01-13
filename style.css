@@ -58,7 +58,9 @@ p {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 #item-plaatje {
-  width: 360px;
+  width: 400px;
+  float: left;
+  margin-right: 10px;
   border: 2px solid #ffffff;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -74,16 +76,17 @@ p {
 }
 
 #item-plaatje3 {
-  width: 360px;
+  width: 400px;
+  float: right;
+  margin-right: 10px;
   border: 3px solid #ffffff;
-  margin-left: 170px;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
 
 .item-tekst {
-  width: 550px;
+  width: 600px;
   text-align: center;
   margin: auto;
   word-spacing: 0.5px;
@@ -92,7 +95,7 @@ p {
 }
 
 .item-tekst2 {
-  width: 550px;
+  width: 600px;
   text-align: center;
   margin: auto;
   word-spacing: 0.5px;
@@ -102,7 +105,7 @@ p {
 }
 
 .item-tekst3 {
-  width: 550px;
+  width: 600px;
   text-align: center;
   margin: auto;
   word-spacing: 0.5px;
@@ -112,7 +115,7 @@ p {
 }
 
 .item-tekst4 {
-  width: 550px;
+  width: 600px;
   text-align: center;
   margin: auto;
   word-spacing: 0.5px;
