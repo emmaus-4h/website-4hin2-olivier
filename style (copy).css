@@ -5,7 +5,7 @@
    letop 1: dit kan de layout soms kan wijzigen 
    letop 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
 /*  * {border: 1px dotted black;}   */
-
+  
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -62,10 +62,10 @@ p {
 
 #item-plaatje {
   width: 500px;
-  float: left;
   border: 3px solid #ffffff;
   border-radius: 40px;
   margin-top: 20px;
+  /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 #item-plaatje2 {
@@ -87,23 +87,17 @@ p {
   margin-bottom: 20px;
 }
 
-#item-plaatje-middengroot {
-  width: 1000px;
-  border: 3px solid #000000;
-  border-radius: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 .item-tekst {
   width: 750px;
   text-align: center;
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin: auto;
   word-spacing: 0.5px;
   color: #ffffff;
+  margin-top: 10px;
+  
 }
 
 .item-tekst2 {
@@ -115,6 +109,7 @@ p {
   word-spacing: 0.5px;
   color: #ffffff;
   margin-top: 10px;
+
 }
 
 .item-tekst3 {
@@ -126,10 +121,11 @@ p {
   word-spacing: 0.5px;
   color: #ffffff;
   margin-top: 10px;
+
 }
 
 .item-tekst4 {
-  width: 1000px;
+  width: 750px;
   text-align: center;
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -137,6 +133,7 @@ p {
   word-spacing: 0.5px;
   color: #ffffff;
   margin-top: 10px;
+
 }
 /* Indeling voor sub pagina */
 
