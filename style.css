@@ -46,6 +46,7 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;
+  color: #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;/* tekst centreren */
 } 
 
@@ -76,6 +77,10 @@ p {
   margin-top: 20px;
   margin-left: 10px;
   transition: transform .2s;
+}
+
+#item-plaatje-met-link:hover {
+  transform:scale(1.04);
 }
 
 #item-plaatje2 {
@@ -152,10 +157,6 @@ p {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: #ffffff;
-}
-
 .smalltext {
     text-align: center;
     font-size: 0.7em;
@@ -208,8 +209,4 @@ nav li a:hover {
 nav li a.active {
     background-color: #696969;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#item-plaatje-met-link:hover {
-  transform:scale(1.04);
 }
