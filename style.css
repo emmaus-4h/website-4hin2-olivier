@@ -68,6 +68,16 @@ p {
   margin-top: 20px;
 }
 
+#item-plaatje-met-link {
+  width: 500px;
+  float: left;
+  border: 3px solid #ffffff;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  transition: transform .2s;
+}
+
 #item-plaatje2 {
   width: 500px;
   border: 3px solid #000000;
@@ -198,4 +208,8 @@ nav li a:hover {
 nav li a.active {
     background-color: #696969;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#item-plaatje-met-link:hover {
+  transform:scale(1.04);
 }
